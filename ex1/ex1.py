@@ -39,3 +39,4 @@ if __name__ == "__main__":
     plt.scatter(x, y)
     plt.plot([0, 1], [b, w + b], c='r')
     plt.show()
+    plt.savefig('ex1.png')
